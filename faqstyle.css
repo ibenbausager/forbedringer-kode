@@ -1,0 +1,363 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* desktop */
+
+.topbar {
+    height: 75px;
+    background-color: #c08080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 8px solid #7f0000;
+}
+
+.logo {
+    height: auto;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+
+/* Navigationsbar */
+
+nav {
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    font-family: nunito, rubik, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    padding: 0 20px;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kynologo {
+    display: flex;
+    height: 25px;
+    width: auto;
+    margin-top: 150px;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul a {
+    color: #0a0d0c;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.book {
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: #7f0000;
+}
+
+.book a {
+    color: white;
+}
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #0a0d0c;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobil-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 30;
+}
+
+.mobil-nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 260px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #d1d1d1;
+}
+
+.mobil-nav a {
+    color: #00807f;
+}
+
+.mobil-nav .book a {
+    color: white;
+}
+
+
+/*desktop section*/
+
+.hovedsection {
+    margin: 125px 0px 0px 0px;
+}
+
+.spørgsmål {
+    background-color: #FFFFFF;
+    color: #0A0D0C;
+    cursor: pointer;
+    padding: 25px;
+    width: 90%;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px 0px 68px;
+}
+
+.mindretop {
+    margin-top: 0px;
+}
+
+.højrelæsmere {
+    text-align: right;
+    font-size: 16px;
+    margin: 50px 60px 0px 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.svar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.overskriftfaq {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aktiv,
+.spørgsmål:hover {
+    background-color: #7F0000;
+    color: white;
+}
+
+.spørgsmål:after {
+    content: "\002B";
+    font-size: 25px;
+    color: black;
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+
+.aktiv:after {
+    content: "\2212";
+}
+
+.svar {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background-color: #D1D1D1;
+    width: 90%;
+    display: none;
+    overflow: hidden;
+    line-height: 2.0;
+    color: #00807F;
+    margin-left: 68px;
+}
+
+.svar p {
+    padding: 10px 20px 10px 20px;
+}
+
+
+/*footer*/
+
+footer {
+    margin-top: 50px;
+}
+
+#some-ikon {
+    height: 25px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+footer p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+.rosa-footer {
+    background-color: #c08080;
+}
+
+.rosa-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grå-footer {
+    background-color: #d1d1d1;
+}
+
+.grå-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+
+.logomark {
+    height: 25px;
+    width: auto;
+    margin-right: 50px;
+}
+
+.grå-flex p {
+    color: #00807f;
+    font-size: 12px;
+    font-family: rubik, nunito, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    /*Mobil nav*/
+    header nav {
+        display: none;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+    .logo {
+        width: 250px;
+    }
+    /* FAQ mobil section */
+    .hovedsection {
+        padding: 0px 10px 0px 10px;
+        margin-top: 125px;
+    }
+    .spørgsmål {
+        background-color: #FFFFFF;
+        color: #0A0D0C;
+        cursor: pointer;
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+        border-style: solid;
+        border-color: black;
+        outline: none;
+        transition: 0.4s;
+        font-family: 'Rubik', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 20px 0px 0px 0px;
+    }
+    .mindretop {
+        margin-top: 0px;
+    }
+    .højrelæsmere {
+        text-align: right;
+        font-size: 12px;
+        margin: 0px 0px 0px 5px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .svar img {
+        max-width: 100%;
+        height: auto;
+    }
+    .overskriftfaq {
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .aktiv,
+    .spørgsmål:hover {
+        background-color: #7F0000;
+        color: white;
+    }
+    .spørgsmål:after {
+        content: "\002B";
+        font-size: 13px;
+        color: black;
+        float: right;
+        margin: 0px 0px 0px 0px;
+    }
+    .aktiv:after {
+        content: "\2212";
+    }
+    .svar {
+        font-family: 'Rubik', sans-serif;
+        font-size: 12px;
+        background-color: #D1D1D1;
+        width: 100%;
+        display: none;
+        overflow: hidden;
+        line-height: 2.0;
+        color: #00807F;
+        margin-left: 0px;
+    }
+    .svar p {
+        padding: 10px 20px 10px 20px;
+    }
+}

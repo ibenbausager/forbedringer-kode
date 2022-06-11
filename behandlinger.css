@@ -1,0 +1,144 @@
+.behandlinger{
+    margin: 100px 0px 0px 0px;
+}
+
+.grid-containerfire{
+    display: grid;
+    grid-template-columns: 400px 550px;
+    padding: 10px;
+    justify-content: center;
+    grid-column-gap: 100px;
+    grid-template-rows: 440px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-top: 50px;
+}
+
+.grid-containerfem{
+    display: grid;
+    grid-template-columns: 550px 400px;
+    padding: 10px;
+    justify-content: center;
+    grid-column-gap: 100px;
+    grid-template-rows: 380px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.grid-containerseks{
+    display: grid;
+    grid-template-columns: 400px 550px;
+    padding: 10px;
+    justify-content: center;
+    grid-column-gap: 100px;
+    grid-template-rows: 380px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.grid-billedeogtekstbehandling img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.grid-tekstvedbillede h2{
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.grid-tekstvedbilledeekstra h2{
+    margin: 25px 0px 30px 0px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.grid-større{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.grid-billedestørre{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .behandlinger{
+        margin: 100px 0px 0px 0px;
+    }
+    
+    .grid-containerfire{
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 10px;
+        justify-content: center;
+        grid-row-gap: 10px;
+        grid-template-rows: 600px 220px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 0px;
+    }
+    
+    .grid-containerfem{
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 10px;
+        justify-content: center;
+        grid-row-gap: 10px;
+        grid-template-rows: 455px 200px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 0px;
+    }
+
+    .grid-containerseks{
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 10px;
+        justify-content: center;
+        grid-row-gap: 10px;
+        grid-template-rows: 455px 220px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 0px;
+    }
+    
+    .bytteom{
+        grid-row: 1 / 1;
+    }
+
+    .grid-billedeogtekstbehandling img{
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .grid-tekstvedbillede h2{
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        margin: 0px 0px 20px 0px;
+        text-align: center;
+    }
+    
+    .grid-tekstvedbilledeekstra h2{
+        margin: 0px 0px 20px 0px;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        
+    }
+    
+    .grid-større{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .grid-billedestørre{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 125px;
+    
+}
+
+.svar p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #00807f;
+    padding: 30px 30px 30px 30px
+}
+
+.svar a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #00807f;
+    padding: 30px 30px 30px 30px
+}
+
+.hovedsection {
+    padding: 0px 50px 50px 50px;
+    margin: 50px 0px 0px 0px;
+    display: block;
+}
+
+.svar {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    width: 97%;
+    margin-left:25px;
+    display: none;
+    background-color: #d1d1d1;
+    color: #0a0d0c;
+    overflow: hidden;
+}
+
+.pris {
+    background-color: #ffffff;
+    color: #0a0d0c;
+    cursor: pointer;
+    padding: 25px;
+    width: 97%;
+    border-style: solid;
+    border-color: #0a0d0c;
+    text-align: left;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.4s;
+    margin: 20px 25px 0px 25px;
+}
+
+.pris:after {
+    content: 'Læs mere';
+    color: #00807f;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    float: right;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+  
+.aktiv:after {
+    content: "\2212";
+}
+
+.aktiv.pris:hover {
+    background-color: #7F0000;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+
+    .pris {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: normal;
+        width: 100%;
+        margin: 5px;
+    }
+    .pris:after {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .hovedsection {
+        padding: 20px;
+        margin: 10px 0px 0px 0px;
+    }
+    .svar {
+        line-height: 32px;
+        margin:5px;
+        padding: 25px;
+        width: 100%;
+        display: none;
+        background-color: #d1d1d1;
+        color: #0a0d0c;
+        overflow: hidden;
+        line-height: 32px;
+    }
+
+    .svar p{
+        font-size: 14px;
+    }
+
+    .svar a{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,496 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topbar {
+    height: 75px;
+    background-color: #c08080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 8px solid #7f0000;
+}
+
+.logo {
+    height: auto;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+
+/* Navigationsbar */
+
+nav {
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    font-family: nunito, rubik, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    padding: 0 20px;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kynologo {
+    display: flex;
+    height: 25px;
+    width: auto;
+    margin-top: 150px;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul a {
+    color: #0a0d0c;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.book {
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: #7f0000;
+}
+
+.book a {
+    color: white;
+}
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #0a0d0c;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobil-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 30;
+}
+
+.mobil-nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 260px;
+    width: 100%;
+    margin-top: 75px;
+    background-color: #d1d1d1;
+}
+
+.mobil-nav a {
+    color: #00807f;
+}
+
+.mobil-nav .book a {
+    color: white;
+}
+
+
+/* Navigationsbar slut*/
+
+
+/*hoved section begynder*/
+
+.videobaggrund {
+    position: relative;
+    top: 80px;
+}
+
+.hund {
+    /*margin-top: 100px;*/
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.trivsel {
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+.trivsel img {
+    width: 70%;
+}
+
+.tretekster {
+    margin-top: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    padding: 10px;
+    justify-content: center;
+    grid-column-gap: 35px;
+    grid-template-rows: 350px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.grid-tekst1 {
+    margin-top: 0px;
+}
+
+.grid-tekstto {
+    margin-top: 70px;
+}
+
+.grid-teksttre {
+    margin-top: 190px;
+}
+
+.grid-container h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.grid-containerto {
+    display: grid;
+    grid-template-columns: 400px 700px;
+    padding: 10px;
+    justify-content: center;
+    grid-column-gap: 50px;
+    grid-template-rows: 400px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.grid-containerto p {
+    font-size: 16px;
+    margin-top: 120px;
+    line-height: 1.5;
+}
+
+.grid-containerto img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+.billedogtekst {
+    margin-top: 30px;
+}
+
+.grid-containertre {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding: 10px;
+    justify-content: center;
+    grid-column-gap: 50px;
+    grid-template-rows: 550px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-top: 50px;
+}
+
+.klientercases {
+    margin-top: 50px;
+}
+
+.klientercases h1 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+}
+
+.cases img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cases p {
+    margin: 20px 0px 0px 0px;
+    line-height: 1.5;
+}
+
+.booktid {
+    color: white;
+    background-color: #7f0000;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+}
+
+.divbooktid {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.divbooktid h3 {
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+}
+
+.divbooktid p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+/* Footer*/
+
+footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: static;
+    margin-top: 100px;
+}
+
+#some-ig {
+    height: 25px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+#some-fb {
+    height: 25px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+footer p {
+    font-family: rubik, nunito, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+.rosa-footer {
+    background-color: #c08080;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: static;
+}
+
+.rosa-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grå-footer {
+    background-color: #d1d1d1;
+}
+
+.grå-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+
+.logomark {
+    height: 25px;
+    width: auto;
+    margin-right: 50px;
+}
+
+.grå-flex p {
+    color: #00807f;
+    font-size: 12px;
+    font-family: rubik, nunito, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+    .logo {
+        width: 250px;
+    }
+    .videobaggrund {
+        position: relative;
+        top: 80px;
+    }
+    .hund {
+        width: 100vw;
+        height: 80vw;
+        object-fit: cover;
+    }
+    .trivsel {
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        text-align: center;
+    }
+    .trivsel img {
+        width: 70%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 10px;
+        justify-content: center;
+        grid-row-gap: 10px;
+        grid-template-rows: 80px 150px 100px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+    }
+    .grid-tekst1 {
+        margin-top: 0px;
+    }
+    .grid-tekstto {
+        margin-top: 0px;
+    }
+    .grid-teksttre {
+        margin-top: 0px;
+    }
+    .grid-container h3 {
+        font-size: 20px;
+    }
+    .grid-container p {
+        font-size: 14px;
+    }
+    .grid-containerto {
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 10px;
+        justify-content: center;
+        grid-row-gap: 10px;
+        grid-template-rows: 300px 290px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+    }
+    .grid-containerto p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .grid-containerto img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+    .billedogtekst {
+        margin-top: 0px;
+    }
+    .grid-containertre {
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 10px;
+        justify-content: center;
+        grid-row-gap: 50px;
+        grid-template-rows: 450px 390px 460px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 20px;
+    }
+    .klientercases {
+        margin-top: 0px;
+    }
+    .klientercases h1 {
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 30px;
+    }
+    .cases img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .cases p {
+        margin: 20px 0px 0px 0px;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .booktid {
+        color: white;
+        background-color: #7f0000;
+        text-decoration: none;
+        padding: 18px 28px 18px 28px;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+        border-radius: 5px;
+    }
+    .divbooktid {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .divbooktid h3 {
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        margin-top: 50px;
+    }
+    .divbooktid p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 125px;
+    font-family: nunito, rubik, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.produkt-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.olie {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.kollagen {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.produkt {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.køb {
+    background-color: #7f0000;
+    height: 70px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: -2px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+h4 {
+    color: white;
+    font-family: nunito, rubik, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 799px) {
+    .produkt {
+        height: 500px;
+        width: 400px;
+        margin-bottom: 100px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .køb {
+        width: 350px;
+    }
+    .produkt {
+        width: 350px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
