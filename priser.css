@@ -34,7 +34,7 @@ h1 {
 .svar {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    line-height: 50px;
+    /*line-height: 2.0;*/
     width: 97%;
     margin-left:25px;
     display: none;
@@ -101,15 +101,12 @@ h1 {
         margin: 10px 0px 0px 0px;
     }
     .svar {
-        line-height: 32px;
         margin:5px;
-        padding: 25px;
         width: 100%;
         display: none;
         background-color: #d1d1d1;
         color: #0a0d0c;
         overflow: hidden;
-        line-height: 32px;
     }
 
     .svar p{
