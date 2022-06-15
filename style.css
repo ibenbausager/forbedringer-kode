@@ -11,7 +11,6 @@ html {
 .topbar {
     height: 75px;
     background-color: #c08080;
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -33,7 +32,7 @@ html {
 /* Navigationsbar */
 
 nav {
-    margin-top: 150px;
+    margin-top: 175px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -45,19 +44,28 @@ header a {
 }
 
 header {
-    padding: 0 20px;
-    background-color: white;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.fixed-navbar {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    align-items: center;
+    z-index: 900;
+}
+
 .kynologo {
     display: flex;
     height: 25px;
     width: auto;
-    margin-top: 150px;
+    margin-top: 175px;
 }
 
 ul {
@@ -88,10 +96,9 @@ ul li {
 }
 
 #hamburger-icon {
-    margin: auto 0;
     display: none;
     cursor: pointer;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 #hamburger-icon div {
@@ -128,7 +135,7 @@ ul li {
 .mobil-nav {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 145px;
     left: 0;
     height: 260px;
     width: 100%;
@@ -384,20 +391,11 @@ footer p {
 }
 
 @media screen and (max-width: 708px) {
-    ul a {
-        font-size: 10px;
-    }
     .kynologo {
         height: 20px;
     }
     .logo {
         width: 280px;
-    }
-}
-
-@media screen and (max-width: 625px) {
-    ul a {
-        font-size: 9px;
     }
 }
 
@@ -407,6 +405,7 @@ footer p {
     }
     #hamburger-icon {
         display: block;
+        z-index: 1200;
     }
     .logo {
         width: 250px;
