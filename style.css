@@ -16,6 +16,8 @@ html {
     left: 0;
     right: 0;
     border-bottom: 8px solid #7f0000;
+    position: fixed;
+    z-index: 1000;
 }
 
 .logo {
@@ -366,6 +368,39 @@ footer p {
     font-family: rubik, nunito, Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 830px) {
+    ul a {
+        font-size: 14px;
+    }
+    .logo {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    ul a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    ul a {
+        font-size: 10px;
+    }
+    .kynologo {
+        height: 20px;
+    }
+    .logo {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    ul a {
+        font-size: 9px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     header nav {
         display: none;
@@ -492,5 +527,32 @@ footer p {
         font-family: 'Rubik', sans-serif;
         font-size: 12px;
         margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .logo {
+        width: 225px;
+    }
+    .kynologo {
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 265px) {
+    .logo {
+        width: 185px;
+    }
+    .kynologo {
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .logo {
+        width: 175px;
+    }
+    .kynologo {
+        height: 15px;
     }
 }
