@@ -67,7 +67,156 @@
     margin-top: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1060px) {
+    .grid-containerfire{
+        display: grid;
+        grid-template-columns: 390px 390px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 20px;
+        grid-template-rows: 610px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 50px;
+    }
+    
+    .grid-containerfem{
+        display: grid;
+        grid-template-columns: 390px 390px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 20px;
+        grid-template-rows: 510px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+    
+    .grid-containerseks{
+        display: grid;
+        grid-template-columns: 390px 390px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 20px;
+        grid-template-rows: 460px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+    
+    .grid-tekstvedbillede h2{
+        font-size: 35px;
+        font-family: 'Nunito', sans-serif;
+        margin: 0px 0px 30px 0px;
+        text-align: center;
+    }
+    
+    .grid-tekstvedbilledeekstra h2{
+        margin: 25px 0px 30px 0px;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        
+    }
+    
+    .grid-større{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .grid-billedestørre{
+        margin-top: 20px;
+    }
+
+    .responsivbillede img{
+        margin-top: 200px;
+    }
+
+    .responsivbilledeto img{
+        margin-top: 175px;
+    }
+
+    .responsivbilledetre img{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .grid-containerfire{
+        display: grid;
+        grid-template-columns: 300px 340px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 20px;
+        grid-template-rows: 540px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 50px;
+    }
+    
+    .grid-containerfem{
+        display: grid;
+        grid-template-columns: 340px 300px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 20px;
+        grid-template-rows: 460px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 10px;
+    }
+    
+    .grid-containerseks{
+        display: grid;
+        grid-template-columns: 300px 340px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 20px;
+        grid-template-rows: 410px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 10px;
+    }
+    
+    .grid-tekstvedbillede h2{
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        margin: 0px 0px 30px 0px;
+        text-align: center;
+    }
+    
+    .grid-tekstvedbilledeekstra h2{
+        margin: 25px 0px 30px 0px;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        
+    }
+    
+    .grid-større{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .grid-billedestørre{
+        margin-top: 20px;
+    }
+
+    .responsivbillede img{
+        width: 100%;
+        margin-top: 125px;
+    }
+
+    .responsivbilledeto img{
+        margin-top: 180px;
+    }
+
+    .responsivbilledetre img{
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width: 660px) {
 
     .behandlinger{
         margin: 100px 0px 0px 0px;

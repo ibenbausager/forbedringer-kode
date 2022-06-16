@@ -183,13 +183,21 @@ ul li {
     margin-top: 100px;
 }
 
+.tretekster h2{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    margin: 110px 0px 35px 0px;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: 320px 320px 320px;
+    grid-template-columns: 330px 330px 330px;
     padding: 10px;
     justify-content: center;
     grid-column-gap: 35px;
-    grid-template-rows: 350px;
+    grid-template-rows: 450px;
     font-family: 'Rubik', sans-serif;
     color: black;
 }
@@ -199,11 +207,11 @@ ul li {
 }
 
 .grid-tekstto {
-    margin-top: 70px;
+    margin-top: 150px;
 }
 
 .grid-teksttre {
-    margin-top: 190px;
+    margin-top: 300px;
 }
 
 .grid-container h3 {
@@ -218,18 +226,18 @@ ul li {
 
 .grid-containerto {
     display: grid;
-    grid-template-columns: 400px 700px;
+    grid-template-columns: 390px 600px;
     padding: 10px;
     justify-content: center;
     grid-column-gap: 50px;
-    grid-template-rows: 400px;
+    grid-template-rows: 375px;
     font-family: 'Rubik', sans-serif;
     color: black;
 }
 
 .grid-containerto p {
     font-size: 16px;
-    margin-top: 120px;
+    margin-top: 150px;
     line-height: 1.5;
 }
 
@@ -246,7 +254,7 @@ ul li {
 
 .grid-containertre {
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 330px 330px 330px;
     padding: 10px;
     justify-content: center;
     grid-column-gap: 50px;
@@ -375,6 +383,102 @@ footer p {
     font-family: rubik, nunito, Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 1160px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 25px;
+        grid-template-rows: 640px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+    }
+
+    .grid-tekst1 {
+        margin-top: 0px;
+    }
+    
+    .grid-tekstto {
+        margin-top: 230px;
+    }
+    
+    .grid-teksttre {
+        margin-top: 470px;
+    }
+    
+    .grid-container h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .grid-container p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .grid-containerto {
+        display: grid;
+        grid-template-columns: 300px 450px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 25px;
+        grid-template-rows: 300px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+    }
+    
+    .grid-containerto p {
+        font-size: 16px;
+        margin-top: 90px;
+        line-height: 1.5;
+    }
+    
+    .grid-containerto img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+    
+    .billedogtekst {
+        margin-top: 30px;
+    }
+    
+    .grid-containertre {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 25px;
+        grid-template-rows: 570px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 50px;
+    }
+    
+    .klientercases {
+        margin-top: 50px;
+    }
+    
+    .klientercases h1 {
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 35px;
+    }
+    
+    .cases img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .cases p {
+        margin: 20px 0px 0px 0px;
+        line-height: 1.5;
+    }
+
+}
+
 @media screen and (max-width: 830px) {
     ul a {
         font-size: 14px;
@@ -382,6 +486,111 @@ footer p {
     .logo {
         width: 300px;
     }
+}
+
+@media screen and (max-width: 800px) {
+    .tretekster h2{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        margin: 110px 0px 35px 0px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 10px;
+        grid-template-rows: 590px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+    }
+
+    .grid-tekst1 {
+        margin-top: 0px;
+    }
+    
+    .grid-tekstto {
+        margin-top: 200px;
+    }
+    
+    .grid-teksttre {
+        margin-top: 420px;
+    }
+    
+    .grid-container h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .grid-container p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .grid-containerto {
+        display: grid;
+        grid-template-columns: 250px 350px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 25px;
+        grid-template-rows: 250px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+    }
+    
+    .grid-containerto p {
+        font-size: 14px;
+        margin-top: 65px;
+        line-height: 1.5;
+    }
+    
+    .grid-containerto img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+    
+    .billedogtekst {
+        margin-top: 30px;
+    }
+    
+    .grid-containertre {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 25px;
+        grid-template-rows: 570px;
+        font-family: 'Rubik', sans-serif;
+        color: black;
+        margin-top: 50px;
+    }
+    
+    .klientercases {
+        margin-top: 50px;
+    }
+    
+    .klientercases h1 {
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 30px;
+    }
+    
+    .cases img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .cases p {
+        margin: 20px 0px 0px 0px;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -399,7 +608,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     header nav {
         display: none;
     }
@@ -428,13 +637,20 @@ footer p {
     .trivsel img {
         width: 70%;
     }
+    .tretekster h2{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        margin: 110px 0px 35px 0px;
+    }
     .grid-container {
         display: grid;
         grid-template-columns: 300px;
         padding: 10px;
         justify-content: center;
         grid-row-gap: 10px;
-        grid-template-rows: 80px 150px 100px;
+        grid-template-rows: 140px 140px 125px;
         font-family: 'Rubik', sans-serif;
         color: black;
     }
@@ -459,7 +675,7 @@ footer p {
         padding: 10px;
         justify-content: center;
         grid-row-gap: 10px;
-        grid-template-rows: 300px 290px;
+        grid-template-rows: 300px 180px;
         font-family: 'Rubik', sans-serif;
         color: black;
     }

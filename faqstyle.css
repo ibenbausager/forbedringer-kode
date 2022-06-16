@@ -83,7 +83,6 @@ html {
     width: 90%;
     display: none;
     overflow: hidden;
-    line-height: 2.0;
     color: #00807F;
     margin-left: 68px;
 }
@@ -209,7 +208,6 @@ footer p {
         width: 100%;
         display: none;
         overflow: hidden;
-        line-height: 2.0;
         color: #00807F;
         margin-left: 0px;
     }
