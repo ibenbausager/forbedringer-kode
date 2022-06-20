@@ -246,7 +246,7 @@ ul li {
 
 .grid-containerto p {
     font-size: 16px;
-    margin-top: 150px;
+    margin-top: 120px;
     line-height: 1.5;
 }
 
@@ -456,7 +456,7 @@ footer p {
     
     .grid-containerto p {
         font-size: 16px;
-        margin-top: 90px;
+        margin-top: 60px;
         line-height: 1.5;
     }
     
@@ -578,7 +578,7 @@ footer p {
     
     .grid-containerto p {
         font-size: 14px;
-        margin-top: 65px;
+        margin-top: 50px;
         line-height: 1.5;
     }
     
@@ -721,7 +721,7 @@ footer p {
         padding: 10px;
         justify-content: center;
         grid-row-gap: 10px;
-        grid-template-rows: 300px 180px;
+        grid-template-rows: 300px 230px;
         font-family: 'Rubik', sans-serif;
         color: black;
     }
